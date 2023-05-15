@@ -1,0 +1,21 @@
+*{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FFC4C4;
+    font-weight: bold;
+}
+li{
+    padding: 20px;
+}
+img{
+    border-radius: 15px;
+}
+h5{
+    padding-top: 45px;
+}
+ul{
+    padding: 30;
+}
+li{
+    padding-left: 90px;
+}

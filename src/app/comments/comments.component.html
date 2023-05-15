@@ -1,0 +1,8 @@
+<div>
+  <h3>Comentarios</h3>
+  <ul>
+    <li *ngFor="let comment of comments">{{ comment }}</li>
+  </ul>
+  <textarea [(ngModel)]="newComment"></textarea>
+  <button (click)="addComment()">Agregar comentario</button>
+</div>

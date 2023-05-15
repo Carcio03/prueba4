@@ -1,0 +1,20 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Correo electrónico</th>
+        <th scope="col">Teléfono</th>
+        <th scope="col">Habitación</th>
+        <th scope="col">Fecha</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let registro of registros">
+        <td>{{ registro.nombre }}</td>
+        <td>{{ registro.correo }}</td>
+        <td>{{ registro.tel }}</td>
+        <td>{{ registro.habitacion }}</td>
+        <td>{{ registro.fecha }}</td>
+      </tr>
+    </tbody>
+  </table>
